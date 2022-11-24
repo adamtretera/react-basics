@@ -784,6 +784,29 @@ import {SuperKomponenta, SuperKomponenta2} "./components/SuperKomponenta"
 
 ---
 
+# Stylování  💅
+- inline = používáme `style` prop
+```tsx
+//HTML
+<div style="margin-top: 20px; background-color: blue;"></div>
+//JSX 
+<div style={{marginTop: 20, backgroundColor: 'blue'}} />
+```
+
+- proto můžeme použít třeba toto
+
+```tsx
+const myStyles = {marginTop: 20, backgroundColor: 'blue'}
+<div style={myStyles} />
+```
+
+- regular = klasické css  `className` třídy
+```tsx
+<Card className="card-big"/>
+```
+
+- toto nám pro teď stačí, ale později si ukážeme výhodnější způsoby
+---
 
 
 # Úkol
@@ -794,7 +817,7 @@ import {SuperKomponenta, SuperKomponenta2} "./components/SuperKomponenta"
 
 ---
 
-# State (hooks)
+# Stav - Změna něčeho na stránce
 - Největší funkce Reactu = re-rendering (překreslení stránky)
 - Často se stane, že se nějaký stav v aplikaci bude měnit a vy budete chtít, aby si ten stav zapamatoval a nepřekresloval celou stránku.
 
