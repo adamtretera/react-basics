@@ -21,6 +21,7 @@ layout: center
 - <span class="text-pink-600">UI</span> myslíme všechny elementy, které uživatel vidí a interaguje.
 <div className="flex justify-center ">
 <img className="w-1/2 rounded-sm" src="/images/ui-components.png"/>
+
 </div>
 
 ---
