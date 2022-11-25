@@ -825,4 +825,3 @@ const myStyles = {marginTop: 20, backgroundColor: 'blue'}
 
 ---
 
-
